@@ -24,5 +24,4 @@ class Hello extends Component {
 }
 
 
-
 export default App;
