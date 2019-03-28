@@ -14,19 +14,15 @@ class App extends Component {
 }
 
 class Hello extends Component {
-  btnHello(){
-    alert('Hello World!!');
-  }
-
   render(){
     return(
       <div>
-        <h2>Please click below button to alert 'Hello World!!!'</h2><br/>
-        <button onClick={this.btnHello}>CLICK ME</button>
+        <h2>Hello World..!</h2>
       </div>
     );
   }
 }
+
 
 
 export default App;
