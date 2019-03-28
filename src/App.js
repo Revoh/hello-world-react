@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <br/><br/><br/>
+        <Hello/>
       </div>
     );
   }
 }
+
+class Hello extends Component {
+  btnHello(){
+    alert('Hello World!!');
+  }
+
+  render(){
+    return(
+      <div>
+        <h2>Please click below button to alert 'Hello World!!!'</h2><br/>
+        <button onClick={this.btnHello}>CLICK ME</button>
+      </div>
+    );
+  }
+}
+
 
 export default App;
