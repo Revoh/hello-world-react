@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
+
 
 class App extends Component {
   render() {
@@ -14,10 +14,21 @@ class App extends Component {
 }
 
 class Hello extends Component {
+  constructor() {
+    super();
+    this.displayMsg = this.displayMsg.bind(this);
+   }
+
+  displayMsg = () => {
+    return 'Hello World...!';
+  }
+
   render(){
+    const msg = this.displayMsg();
+
     return(
       <div>
-        <h2>Hello World..!</h2>
+        <h2>{msg}</h2>
       </div>
     );
   }
@@ -25,3 +36,4 @@ class Hello extends Component {
 
 
 export default App;
+

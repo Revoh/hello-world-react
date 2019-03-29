@@ -1,0 +1,60 @@
+93e0a20a3abc6b1bf4c080d2b4f1a9a6
+"use strict";
+
+var _interopRequireWildcard = require("/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+require("./App.css");
+
+var _jsxFileName = "/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/src/App.js";
+
+class App extends _react.Component {
+  constructor(...args) {
+    super(...args);
+
+    this.displayHello = () => {
+      return 'Hello World...!';
+    };
+  }
+
+  render() {
+    const hello = this.displayHello();
+    return _react.default.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, _react.default.createElement("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, hello));
+  }
+
+} // class Hello extends Component {
+//   displayHello = () =>{
+//     return 'Hello World...!';
+//   }
+//   render(){
+//     const hello = this.displayHello();
+//     return(
+//       <div>
+//         <h2>{hello}</h2>
+//       </div>
+//     );
+//   }
+// }
+
+
+var _default = App;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJDb21wb25lbnQiLCJkaXNwbGF5SGVsbG8iLCJyZW5kZXIiLCJoZWxsbyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7O0FBQ0E7Ozs7QUFFQSxNQUFNQSxHQUFOLFNBQWtCQyxnQkFBbEIsQ0FBNEI7QUFBQTtBQUFBOztBQUFBLFNBVTFCQyxZQVYwQixHQVVYLE1BQUs7QUFDbEIsYUFBTyxpQkFBUDtBQUNELEtBWnlCO0FBQUE7O0FBYzFCQyxFQUFBQSxNQUFNLEdBQUU7QUFDTixVQUFNQyxLQUFLLEdBQUcsS0FBS0YsWUFBTCxFQUFkO0FBRUEsV0FDRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQUtFLEtBQUwsQ0FERixDQURGO0FBS0Q7O0FBdEJ5QixDLENBeUI1QjtBQUNBO0FBQ0E7QUFDQTtBQUVBO0FBQ0E7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7O2VBS2VKLEciLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0ICcuL0FwcC5jc3MnO1xuXG5jbGFzcyBBcHAgZXh0ZW5kcyBDb21wb25lbnQge1xuICAvLyByZW5kZXIoKSB7XG4gIC8vICAgcmV0dXJuIChcbiAgLy8gICAgIDxkaXYgY2xhc3NOYW1lPVwiQXBwXCI+XG4gIC8vICAgICAgIDxici8+PGJyLz48YnIvPlxuICAvLyAgICAgICA8SGVsbG8vPlxuICAvLyAgICAgPC9kaXY+XG4gIC8vICAgKTtcbiAgLy8gfVxuXG4gIGRpc3BsYXlIZWxsbyA9ICgpID0+e1xuICAgIHJldHVybiAnSGVsbG8gV29ybGQuLi4hJztcbiAgfVxuXG4gIHJlbmRlcigpe1xuICAgIGNvbnN0IGhlbGxvID0gdGhpcy5kaXNwbGF5SGVsbG8oKTtcblxuICAgIHJldHVybihcbiAgICAgIDxkaXY+XG4gICAgICAgIDxoMj57aGVsbG99PC9oMj5cbiAgICAgIDwvZGl2PlxuICAgICk7XG4gIH1cbn1cblxuLy8gY2xhc3MgSGVsbG8gZXh0ZW5kcyBDb21wb25lbnQge1xuLy8gICBkaXNwbGF5SGVsbG8gPSAoKSA9Pntcbi8vICAgICByZXR1cm4gJ0hlbGxvIFdvcmxkLi4uISc7XG4vLyAgIH1cblxuLy8gICByZW5kZXIoKXtcbi8vICAgICBjb25zdCBoZWxsbyA9IHRoaXMuZGlzcGxheUhlbGxvKCk7XG5cbi8vICAgICByZXR1cm4oXG4vLyAgICAgICA8ZGl2PlxuLy8gICAgICAgICA8aDI+e2hlbGxvfTwvaDI+XG4vLyAgICAgICA8L2Rpdj5cbi8vICAgICApO1xuLy8gICB9XG4vLyB9XG5cblxuXG5cbmV4cG9ydCBkZWZhdWx0IEFwcDtcbiJdfQ==

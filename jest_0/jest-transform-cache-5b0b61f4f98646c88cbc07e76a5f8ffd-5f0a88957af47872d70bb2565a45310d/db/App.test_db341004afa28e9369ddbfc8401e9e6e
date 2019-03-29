@@ -1,0 +1,32 @@
+a88b33dd7e3f8beb2676e77dbcb39798
+"use strict";
+
+var _interopRequireDefault = require("/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _jsxFileName = "/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/src/App.test.js";
+
+const displayHello = require('./App');
+
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+
+  _reactDom.default.render(_react.default.createElement(_App.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: void 0
+  }), div);
+
+  _reactDom.default.unmountComponentAtNode(div);
+});
+it('display hello world', () => {
+  expect(displayHello().toBe('Hello World...!'));
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC50ZXN0LmpzIl0sIm5hbWVzIjpbImRpc3BsYXlIZWxsbyIsInJlcXVpcmUiLCJpdCIsImRpdiIsImRvY3VtZW50IiwiY3JlYXRlRWxlbWVudCIsIlJlYWN0RE9NIiwicmVuZGVyIiwidW5tb3VudENvbXBvbmVudEF0Tm9kZSIsImV4cGVjdCIsInRvQmUiXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7OztBQUdBLE1BQU1BLFlBQVksR0FBR0MsT0FBTyxDQUFDLE9BQUQsQ0FBNUI7O0FBR0FDLEVBQUUsQ0FBQywwQkFBRCxFQUE2QixNQUFNO0FBQ25DLFFBQU1DLEdBQUcsR0FBR0MsUUFBUSxDQUFDQyxhQUFULENBQXVCLEtBQXZCLENBQVo7O0FBQ0FDLG9CQUFTQyxNQUFULENBQWdCLDZCQUFDLFlBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFBaEIsRUFBeUJKLEdBQXpCOztBQUNBRyxvQkFBU0Usc0JBQVQsQ0FBZ0NMLEdBQWhDO0FBQ0QsQ0FKQyxDQUFGO0FBUUFELEVBQUUsQ0FBQyxxQkFBRCxFQUF3QixNQUFNO0FBQzlCTyxFQUFBQSxNQUFNLENBQUNULFlBQVksR0FBR1UsSUFBZixDQUFvQixpQkFBcEIsQ0FBRCxDQUFOO0FBQ0QsQ0FGQyxDQUFGIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBSZWFjdERPTSBmcm9tICdyZWFjdC1kb20nO1xuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XG5cblxuY29uc3QgZGlzcGxheUhlbGxvID0gcmVxdWlyZSgnLi9BcHAnKTtcblxuXG5pdCgncmVuZGVycyB3aXRob3V0IGNyYXNoaW5nJywgKCkgPT4ge1xuICBjb25zdCBkaXYgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdkaXYnKTtcbiAgUmVhY3RET00ucmVuZGVyKDxBcHAgLz4sIGRpdik7XG4gIFJlYWN0RE9NLnVubW91bnRDb21wb25lbnRBdE5vZGUoZGl2KTtcbn0pO1xuXG5cblxuaXQoJ2Rpc3BsYXkgaGVsbG8gd29ybGQnLCAoKSA9PiB7XG4gIGV4cGVjdChkaXNwbGF5SGVsbG8oKS50b0JlKCdIZWxsbyBXb3JsZC4uLiEnKSk7XG59KTsiXX0=

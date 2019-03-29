@@ -1,0 +1,90 @@
+72334d5bde847c1d42b24cd1b4bcabb5
+"use strict";
+
+var _interopRequireWildcard = require("/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+require("./App.css");
+
+var _jsxFileName = "/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/src/App.js";
+
+class App extends _react.Component {
+  constructor(...args) {
+    super(...args);
+
+    this.displayHello = () => {
+      return 'Hello World...!';
+    };
+  }
+
+  render() {
+    const hello = this.displayHello();
+    return _react.default.createElement("div", {
+      className: "App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, _react.default.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }), _react.default.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }), _react.default.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }), _react.default.createElement("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, hello));
+  }
+
+} // class App extends Component {
+//   render() {
+//     return (
+//       <div className="App">
+//         <br/><br/><br/>
+//         <Hello/>
+//       </div>
+//     );
+//   }
+// }
+// 
+// class Hello extends Component {
+//   displayHello = () => {
+//     return 'Hello World...!';
+//   }
+//   render(){
+//     const hello = this.displayHello();
+//     return(
+//       <div>
+//         <h2>{hello}</h2>
+//       </div>
+//     );
+//   }
+// }
+
+
+var _default = App;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJDb21wb25lbnQiLCJkaXNwbGF5SGVsbG8iLCJyZW5kZXIiLCJoZWxsbyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7O0FBQ0E7Ozs7QUFFQSxNQUFNQSxHQUFOLFNBQWtCQyxnQkFBbEIsQ0FBNEI7QUFBQTtBQUFBOztBQUFBLFNBQzFCQyxZQUQwQixHQUNYLE1BQU07QUFDbkIsYUFBTyxpQkFBUDtBQUNELEtBSHlCO0FBQUE7O0FBSzFCQyxFQUFBQSxNQUFNLEdBQUc7QUFDUCxVQUFNQyxLQUFLLEdBQUcsS0FBS0YsWUFBTCxFQUFkO0FBRUEsV0FDRTtBQUFLLE1BQUEsU0FBUyxFQUFDLEtBQWY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FDRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxNQURGLEVBQ087QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsTUFEUCxFQUNZO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE1BRFosRUFFRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUFLRSxLQUFMLENBRkYsQ0FERjtBQU1EOztBQWR5QixDLENBaUI1QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFFQTtBQUNBO0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7OztlQU9lSixHIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCAnLi9BcHAuY3NzJztcblxuY2xhc3MgQXBwIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgZGlzcGxheUhlbGxvID0gKCkgPT4ge1xuICAgIHJldHVybiAnSGVsbG8gV29ybGQuLi4hJztcbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgICBjb25zdCBoZWxsbyA9IHRoaXMuZGlzcGxheUhlbGxvKCk7XG5cbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJBcHBcIj5cbiAgICAgICAgPGJyLz48YnIvPjxici8+XG4gICAgICAgIDxoMj57aGVsbG99PC9oMj5cbiAgICAgIDwvZGl2PlxuICAgICk7XG4gIH1cbn1cblxuLy8gY2xhc3MgQXBwIGV4dGVuZHMgQ29tcG9uZW50IHtcbi8vICAgcmVuZGVyKCkge1xuLy8gICAgIHJldHVybiAoXG4vLyAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIkFwcFwiPlxuLy8gICAgICAgICA8YnIvPjxici8+PGJyLz5cbi8vICAgICAgICAgPEhlbGxvLz5cbi8vICAgICAgIDwvZGl2PlxuLy8gICAgICk7XG4vLyAgIH1cbi8vIH1cbi8vIFxuLy8gY2xhc3MgSGVsbG8gZXh0ZW5kcyBDb21wb25lbnQge1xuLy8gICBkaXNwbGF5SGVsbG8gPSAoKSA9PiB7XG4vLyAgICAgcmV0dXJuICdIZWxsbyBXb3JsZC4uLiEnO1xuLy8gICB9XG5cbi8vICAgcmVuZGVyKCl7XG4vLyAgICAgY29uc3QgaGVsbG8gPSB0aGlzLmRpc3BsYXlIZWxsbygpO1xuXG4vLyAgICAgcmV0dXJuKFxuLy8gICAgICAgPGRpdj5cbi8vICAgICAgICAgPGgyPntoZWxsb308L2gyPlxuLy8gICAgICAgPC9kaXY+XG4vLyAgICAgKTtcbi8vICAgfVxuLy8gfVxuXG5cblxuXG5cblxuZXhwb3J0IGRlZmF1bHQgQXBwO1xuIl19

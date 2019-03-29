@@ -1,0 +1,104 @@
+4a179cbf9ae61df00c1967c5306b0cd7
+"use strict";
+
+var _interopRequireWildcard = require("/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.displayMsg = exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+require("./App.css");
+
+var _jsxFileName = "/home/revoh/Documents/MyProject/ReactJS/learn01/hello-world/src/App.js";
+
+class App extends _react.Component {
+  render() {
+    return _react.default.createElement("div", {
+      className: "App",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      },
+      __self: this
+    }, _react.default.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }), _react.default.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }), _react.default.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    }), _react.default.createElement(Hello, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }));
+  }
+
+}
+
+class Hello extends _react.Component {
+  constructor(...args) {
+    super(...args);
+
+    this.displayHello = () => {
+      return 'Hello World...!';
+    };
+  }
+
+  render() {
+    const hello = this.displayHello();
+    const msg = this.displayMsg('Revoh');
+    return _react.default.createElement("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, _react.default.createElement("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, hello), _react.default.createElement("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }), _react.default.createElement("h3", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }, msg));
+  }
+
+}
+
+var _default = App;
+exports.default = _default;
+
+const displayMsg = str => {
+  return str;
+};
+
+exports.displayMsg = displayMsg;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJDb21wb25lbnQiLCJyZW5kZXIiLCJIZWxsbyIsImRpc3BsYXlIZWxsbyIsImhlbGxvIiwibXNnIiwiZGlzcGxheU1zZyIsInN0ciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7O0FBQ0E7Ozs7QUFHQSxNQUFNQSxHQUFOLFNBQWtCQyxnQkFBbEIsQ0FBNEI7QUFDMUJDLEVBQUFBLE1BQU0sR0FBRztBQUNQLFdBQ0U7QUFBSyxNQUFBLFNBQVMsRUFBQyxLQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQ0U7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsTUFERixFQUNPO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE1BRFAsRUFDWTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxNQURaLEVBRUUsNkJBQUMsS0FBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxNQUZGLENBREY7QUFNRDs7QUFSeUI7O0FBVzVCLE1BQU1DLEtBQU4sU0FBb0JGLGdCQUFwQixDQUE4QjtBQUFBO0FBQUE7O0FBQUEsU0FDNUJHLFlBRDRCLEdBQ2IsTUFBTTtBQUNuQixhQUFPLGlCQUFQO0FBQ0QsS0FIMkI7QUFBQTs7QUFLNUJGLEVBQUFBLE1BQU0sR0FBRTtBQUNOLFVBQU1HLEtBQUssR0FBRyxLQUFLRCxZQUFMLEVBQWQ7QUFDQSxVQUFNRSxHQUFHLEdBQUcsS0FBS0MsVUFBTCxDQUFnQixPQUFoQixDQUFaO0FBRUEsV0FDRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxPQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQUtGLEtBQUwsQ0FERixFQUNrQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxNQURsQixFQUVFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQUtDLEdBQUwsQ0FGRixDQURGO0FBTUQ7O0FBZjJCOztlQW9CZk4sRzs7O0FBRVIsTUFBTU8sVUFBVSxHQUFJQyxHQUFELElBQVM7QUFDakMsU0FBT0EsR0FBUDtBQUNELENBRk0iLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgQ29tcG9uZW50IH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0ICcuL0FwcC5jc3MnO1xuXG5cbmNsYXNzIEFwcCBleHRlbmRzIENvbXBvbmVudCB7XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJBcHBcIj5cbiAgICAgICAgPGJyLz48YnIvPjxici8+XG4gICAgICAgIDxIZWxsby8+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmNsYXNzIEhlbGxvIGV4dGVuZHMgQ29tcG9uZW50IHtcbiAgZGlzcGxheUhlbGxvID0gKCkgPT4ge1xuICAgIHJldHVybiAnSGVsbG8gV29ybGQuLi4hJztcbiAgfVxuXG4gIHJlbmRlcigpe1xuICAgIGNvbnN0IGhlbGxvID0gdGhpcy5kaXNwbGF5SGVsbG8oKTtcbiAgICBjb25zdCBtc2cgPSB0aGlzLmRpc3BsYXlNc2coJ1Jldm9oJyk7XG5cbiAgICByZXR1cm4oXG4gICAgICA8ZGl2PlxuICAgICAgICA8aDI+e2hlbGxvfTwvaDI+PGJyLz5cbiAgICAgICAgPGgzPnttc2d9PC9oMz5cbiAgICAgIDwvZGl2PlxuICAgICk7XG4gIH1cbn1cblxuXG5cbmV4cG9ydCBkZWZhdWx0IEFwcDtcblxuZXhwb3J0IGNvbnN0IGRpc3BsYXlNc2cgPSAoc3RyKSA9PiB7XG4gIHJldHVybiBzdHI7XG59XG4iXX0=
